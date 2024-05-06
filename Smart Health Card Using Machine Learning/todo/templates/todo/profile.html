@@ -1,0 +1,97 @@
+
+{% extends "todo/base.html" %}
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;
+    text-align: center;
+}
+#customers tr:nth-child(odd){background-color: #ffffff;
+    text-align: center;
+}
+
+#customers tr:hover {background-color: #396d50;}
+
+#customers th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: #396d50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- <h1>Performance Parameters</h1> -->
+
+<div class="row justify-content-center mt-5 ">
+    <div class="col-md-7">
+
+
+        <table id="customers">
+        
+        <tr>
+            <th>Name</th>
+            <th>{{name}}</th>
+        </tr>
+
+        <tr>
+            <td> Gender </td>
+            <td> {{M_F}} </td>
+        </tr>
+
+        <tr>
+            <td> Blood Group </td>
+            <td>{{BG}}</td>
+        </tr>
+
+
+        <tr>
+            <td> Weight </td>
+            <td> {{weight}} Kg </td>
+        </tr>
+
+        <tr>
+            <td> Height </td>
+            <td> {{height}} cm </td>
+
+        </tr>
+
+        <tr>
+            <td> BMI </td>
+            <td> {{BMI}} </td>
+        </tr>
+
+        <tr>
+            <td> Body Weight Category </td>
+            <td> {{category}} </td>
+        </tr>
+
+
+        </table>
+    </div>
+</div>
+</body>
+</html>
+<br>
+<br>
+<br>                     
+
+{% endblock %}
