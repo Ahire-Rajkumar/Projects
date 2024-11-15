@@ -1,0 +1,11 @@
+check_command.c
+echo.c
+external_commands.txt
+extract_external.c
+get_command.c
+internal.c
+main.c
+main.h
+mini_shell
+output.txt
+scan_input.c
