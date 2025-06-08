@@ -1,6 +1,6 @@
 # Projects:
 
-1) Title: Smart Health Card Using Machine Learning (Academic project)
+Title: Smart Health Card Using Machine Learning (Academic project)
                              
 Technology - Python, SQL, Machine Learning.
 
