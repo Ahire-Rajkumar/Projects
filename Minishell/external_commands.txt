@@ -1,7 +1,0 @@
-bash
-ls
--l
-pwd 
-ps
-mkdir
--a
